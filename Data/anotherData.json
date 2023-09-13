@@ -1,0 +1,1589 @@
+{
+    "Hospitals": [
+        {
+            "name": "Martyrs",
+            "district": "Bahari",
+            "status": "Operational",
+            "patners": "Potential MSF Spain",
+            "gpslocation": "15.72392, 32.57995",
+            "controlledby": "RSF",
+            "notes": "Back to Operat but keeping low profile"
+        },
+        {
+            "name": "Umdawwanban",
+            "district": "East Nile",
+            "status": "Operational",
+            "patners": "MSF Swiss",
+            "gpslocation": "15.42213, 32.83633",
+            "controlledby": "RSF"
+        },
+        {
+            "name": "Alban Jaded",
+            "district": "East Nile",
+            "status": "Operational",
+            "patners": "MSF Swiss",
+            "gpslocation": "15.61767, 32.63211",
+            "controlledby": "RSF",
+            "dailymeals": 1041,
+            "detailsOnNeededMeals": "1041 meals daily for Patients, medical staff, administrative staff, volunteers, co-patients and families of patients and host neighborhood."
+        },
+        {
+            "name": "Bashair",
+            "district": "Jabal Awlia",
+            "status": "Operational",
+            "region": "Janub Alhizam",
+            "patners": "MSF Belgium",
+            "gpslocation": "15.48925, 32.55248",
+            "controlledby": "RSF",
+            "dailymeals": 580,
+            "detailsOnNeededMeals": "Patients, medical staff, administrative staff, volunteers: are 420 meal per day. For co-patients and families of patients are 160 meals per day. "
+        },
+        {
+            "name": "Turkish",
+            "district": "Jabal Awlia",
+            "status": "Operational",
+            "region": "Kalakla",
+            "patners": "MSF France",
+            "gpslocation": "15.46264, 32.47649",
+            "controlledby": "RSF",
+            "dailymeals": 910,
+            "detailsOnNeededMeals": "Patients, medical staff, administrative staff, volunteers: are 490 meal per day. For co-patients and families of patients are 420 meals per day. "
+        },
+        {
+            "name": "Jebel Aulia",
+            "district": "Jabal Awlia",
+            "status": "Operational",
+            "region": "Jabal Awlia",
+            "gpslocation": "15.24355, 32.49819",
+            "controlledby": "RSF",
+            "dailymeals": 480,
+            "detailsOnNeededMeals": "Approximately 240 people will be served for 2/3 times a day"
+        },
+        {
+            "name": "Omdurman",
+            "district": "Omdurman",
+            "status": "Operational",
+            "gpslocation": "15.64195, 32.48772",
+            "controlledby": "RSF/SAF"
+        },
+        {
+            "name": "Abu Saad ",
+            "district": "Omdurman",
+            "status": "Operational",
+            "region": "South Omdurman",
+            "patners": "Potential WHO",
+            "gpslocation": "15.59320, 32.46062",
+            "controlledby": "RSF/SAF",
+            "dailycases": 400,
+            "dailyopscost": "270,000 SDG",
+            "dailymeals": 600,
+            "detailsOnNeededMeals": "300 (patients, staff, volunteers) x 2 meals a day",
+            "notes": "Converted to public after the war with 70 staff & volunteers and up to 400 cases"
+        },
+        {
+            "name": "Ombada",
+            "district": "Ombada",
+            "status": "Operational",
+            "region": "Al Amir",
+            "patners": "Potential MSF Spain",
+            "gpslocation": "15.65305, 32.4104",
+            "controlledby": "RSF"
+        },
+        {
+            "name": "Al Rajhi",
+            "district": "Ombada",
+            "status": "Out of service ",
+            "region": "Al Amir",
+            "gpslocation": "15.64899, 32.36911",
+            "controlledby": "RSF"
+        },
+        {
+            "name": "Al Buluk",
+            "district": "Karari",
+            "status": "Operational",
+            "gpslocation": "15.68116, 32.48076",
+            "controlledby": "SAF",
+            "dailymeals": 240,
+            "detailsOnNeededMeals": "120 (patients, staff, volunteers) x 2 meals a day"
+        },
+        {
+            "name": "Al Nau",
+            "district": "Karari",
+            "status": "Operational",
+            "patners": "MSF Holland/ WHO/ Qatar Charity/ Shari3 Alhawadith/ SAPA ",
+            "gpslocation": "15.68819, 32.49176",
+            "controlledby": "SAF",
+            "dailymeals": 330,
+            "detailsOnNeededMeals": "165 (patients, staff, volunteers) x 2 meals a day"
+        },
+        {
+            "name": "Elfateh",
+            "district": "Karari",
+            "status": "Operational",
+            "region": "Outskirt",
+            "gpslocation": "15.80417, 32.39034",
+            "controlledby": "SAF",
+            "dailymeals": 140,
+            "detailsOnNeededMeals": "70 (patients, staff, volunteers) x 2 meals a day"
+        },
+        {
+            "name": "Sururab",
+            "district": "Karari",
+            "status": "Operational",
+            "region": "Outskirt",
+            "gpslocation": "15.92389, 32.53379",
+            "controlledby": "SAF",
+            "dailymeals": 300,
+            "detailsOnNeededMeals": "128 (patients, staff, volunteers) x 2 meals a day"
+        },
+        {
+            "name": "Ibrahim Said",
+            "district": "Karari",
+            "status": "Operational",
+            "region": "Outskirt",
+            "gpslocation": "15.88061, 32.5264",
+            "controlledby": "SAF"
+        },
+        {
+            "name": "Saudi",
+            "district": "Karari",
+            "status": "Out of service ",
+            "gpslocation": "15.6692, 32.483",
+            "controlledby": "SAF",
+            "dailymeals": 140,
+            "detailsOnNeededMeals": "68 (patients, staff, volunteers) x 2 meals a day",
+            "notes": "Patients transfered to AlNau due to security issues"
+        },
+        {
+            "patners": "Total Active Hospitals",
+            "gpslocation": 15
+        }
+    ],
+    "Health_Centers": [
+        {
+            "name": "Tuti",
+            "district": "Khartoum",
+            "clinics": 1
+        },
+        {
+            "name": "Alsahafa",
+            "district": "Khartoum",
+            "clinics": 1
+        },
+        {
+            "name": "Alezwzab",
+            "district": "Khartoum",
+            "clinics": 1
+        },
+        {
+            "name": "Jabra",
+            "district": "Khartoum",
+            "clinics": 1
+        },
+        {
+            "name": "Ana Alsudan Center",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Al Kababish Center",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Old Salma  Center",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Alamal Center ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Algatia Center ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Alimtidad Center ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Wd Elmukhtar ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Albija Abd Alhadi Center ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Aldwihia Center ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Alshigilab ERR",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Algadisia ERR ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Soba ERR ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Alhara Alraba ERR ",
+            "district": "Jebel Awlia",
+            "clinics": 1
+        },
+        {
+            "name": "Alosilat",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Algowiz",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Soba East",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Al-Ailfon",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Almarabie ",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Alshiekh Alamin",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Idbabikir",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Altawidad",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Albarkat",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Dar Asalam",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Alwihda Alitihadi",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Baron Red Crescent ",
+            "district": "East Nile",
+            "clinics": 1
+        },
+        {
+            "name": "Unused Clinics",
+            "district": "East Nile",
+            "status": "Planned",
+            "clinics": 3
+        },
+        {
+            "name": "Sharoni",
+            "district": "Karari",
+            "clinics": 1
+        },
+        {
+            "name": "The 17th",
+            "district": "Karari",
+            "clinics": 1
+        },
+        {
+            "name": "Al-Rahma",
+            "district": "Karari",
+            "clinics": 1
+        },
+        {
+            "name": "Al-Shirouzan",
+            "district": "Karari",
+            "clinics": 1
+        },
+        {
+            "name": "Al-Omran",
+            "district": "Karari",
+            "clinics": 1
+        },
+        {
+            "name": "Al-Rashideen",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "name": "Badr Al-Kobra",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "name": "Block 41",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "name": "Al Rayyan",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "name": "Al Rakhaa",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "name": "Gharib Al Qusi",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "name": "Al Sabeel",
+            "district": "Ombada",
+            "clinics": 1
+        },
+        {
+            "region": "Total Clinics",
+            "adminunit": 44
+        }
+    ],
+    "Kitchens": [
+        {
+            "name": "Al-Jerif West",
+            "district": "Khartoum",
+            "status": "Established",
+            "region": "East Khartoum",
+            "adminunit": "Al-Jerif West",
+            "kitchens": 5,
+            "familes": 3000,
+            "rating": "3+",
+            "notes": "One in a school run by WRR"
+        },
+        {
+            "name": "Alezwzab",
+            "district": "Khartoum",
+            "status": "Established",
+            "kitchens": 1
+        },
+        {
+            "name": "Wd Eajib",
+            "district": "Khartoum",
+            "status": "Established",
+            "kitchens": 1
+        },
+        {
+            "name": "Arkawit",
+            "district": "Khartoum",
+            "status": "Established",
+            "region": "East Khartoum",
+            "adminunit": "Arkawit",
+            "kitchens": 3,
+            "familes": 2020,
+            "rating": "3+"
+        },
+        {
+            "name": "Buri Allamab",
+            "district": "Khartoum",
+            "status": "Preparing",
+            "region": "East Khartoum",
+            "adminunit": "Buri",
+            "kitchens": 1,
+            "familes": 200,
+            "notes": "Through Al-Jerif West"
+        },
+        {
+            "name": "Al-Jerif East",
+            "district": "East Nile",
+            "status": "Ready",
+            "adminunit": "Al-Jerif East",
+            "kitchens": 4
+        },
+        {
+            "name": "Al Imtidad",
+            "district": "East Nile",
+            "status": "Ready",
+            "kitchens": 2
+        },
+        {
+            "name": "Kuku Neighborhood",
+            "district": "East Nile",
+            "status": "Ready",
+            "kitchens": 3
+        },
+        {
+            "name": "Al Muzdalifa",
+            "district": "East Nile",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Dar Alsalam Al Maghariba",
+            "district": "East Nile",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Almayaquma Sharq",
+            "district": "East Nile",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Alailfoon",
+            "district": "East Nile",
+            "status": "Planning",
+            "adminunit": "Alailfoon",
+            "kitchens": 1,
+            "familes": 300,
+            "rating": "1+"
+        },
+        {
+            "name": "Al Bogaa",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Bugaa",
+            "kitchens": 1,
+            "rating": "1+"
+        },
+        {
+            "name": "Block 1 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 2 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 3 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 4 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 5 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 6 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 7 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 10 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 11 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 12 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Block 18 (Al Amir Sector)",
+            "district": "Ombada",
+            "status": "Ready",
+            "region": "Al Amir ",
+            "kitchens": 1
+        },
+        {
+            "name": "Shambat Alhila",
+            "district": "Bahari",
+            "status": "Ready",
+            "kitchens": 6
+        },
+        {
+            "name": "Algura Almutahida",
+            "district": "Bahari",
+            "status": "Ready",
+            "kitchens": 3
+        },
+        {
+            "name": "Al Halfaia",
+            "district": "Bahari",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Al Mazad",
+            "district": "Bahari",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Al Samrab",
+            "district": "Bahari",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Um Dariwa",
+            "district": "Bahari",
+            "status": "Ready",
+            "kitchens": 1
+        },
+        {
+            "name": "Al-Thawra Al-Hara 17",
+            "district": "Karari",
+            "status": "Ready",
+            "adminunit": "Karari Middle",
+            "kitchens": 1
+        },
+        {
+            "name": "Al-Thawra West",
+            "district": "Karari",
+            "status": "Ready",
+            "adminunit": "Karari Middle",
+            "kitchens": 1
+        },
+        {
+            "name": "Karari Al-Ajeeja",
+            "district": "Karari",
+            "status": "Ready",
+            "adminunit": "Karari East",
+            "kitchens": 1
+        },
+        {
+            "name": "Wad Al-Bakhit",
+            "district": "Karari",
+            "status": "Ready",
+            "adminunit": "Karari East",
+            "kitchens": 1
+        },
+        {
+            "district": "Omdurman",
+            "status": "Planning",
+            "kitchens": 3
+        },
+        {
+            "district": "Jabel Awlia",
+            "status": "Planning",
+            "kitchens": 4
+        },
+        {
+            "region": "Total Kitchens",
+            "adminunit": 60
+        }
+    ],
+    "Evacuation_Centers": [
+        {
+            "name": "Jinan Preschool",
+            "district": "Karari",
+            "people": 44,
+            "notes": "Number of families (5) Number of individuals (44)"
+        },
+        {
+            "name": "Al Shati neighborhood school",
+            "district": "Karari",
+            "people": 115,
+            "notes": "Number of families (21) Number of individuals (115)"
+        },
+        {
+            "name": "Sixth School",
+            "district": "Karari",
+            "people": 175,
+            "notes": "Number of families (26) Number of individuals (175)"
+        },
+        {
+            "name": "Al-Hara Eighth School for Boys",
+            "district": "Karari",
+            "people": 92,
+            "notes": "Number of families (15) Number of individuals (92)"
+        },
+        {
+            "name": "Forty School",
+            "district": "Karari",
+            "people": 396,
+            "notes": "Number of families (72) Number of individuals (396)"
+        },
+        {
+            "name": "School 48",
+            "district": "Karari",
+            "people": 33,
+            "notes": "Number of families (6) Number of individuals (33)"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Karari"
+        },
+        {
+            "district": "Ombada",
+            "region": "Al-Boga"
+        },
+        {
+            "district": "Ombada",
+            "region": "Al-Boga"
+        }
+    ],
+    "Women_Coops": [],
+    "Children_Centers": [],
+    "Water_Stations": [
+        {
+            "name": "Almanra",
+            "district": "Karari",
+            "status": "Operational",
+            "patners": "ICRC/ UNICEF",
+            "gpslocation": "https://www.google.com/maps/place/AL-MANARA+Water+Station/@15.7151839,32.4565684,13.19z/data=!4m10!1m2!2m1!1z2YXYrdi32Kkg2YXZitin2Ycg2KfZhNmF2YbYp9ix2Kk!3m6!1s0x168ef297f326f9f1:0xe340023c2ad588f6!8m2!3d15.7135394!4d32.5254428!15sCiDZhdit2LfYqSDZhdmK2KfZhyDYp9mE2YXZhtin2LHYqVoiIiDZhdit2LfYqSDZhdmK2KfZhyDYp9mE2YXZhtin2LHYqZIBFXdhdGVyX3RyZWF0bWVudF9wbGFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VObGRGcFlhSGxuUlJBQuABAA!16s%2Fg%2F1th46s20?entry=ttu",
+            "controlledby": "SAF",
+            "type": "Filteration",
+            "notes": "Chlorine cylinders & compensation to workers"
+        },
+        {
+            "name": "Algamair",
+            "district": "Omdurman",
+            "status": "Operational",
+            "patners": "ICRC/ UNICEF",
+            "gpslocation": "https://www.google.com/maps/place/El-Gamair+Water+Station/@15.6665373,32.5019182,17z/data=!3m1!4b1!4m6!3m5!1s0x168e8d1065ec30df:0xfef390068077b7ad!8m2!3d15.6665373!4d32.5044931!16s%2Fg%2F1hhngl_fr?entry=ttu",
+            "controlledby": "RSF",
+            "type": "Distribution",
+            "notes": "Booster station getting water from Almanara"
+        },
+        {
+            "name": "Almugran",
+            "district": "Omdurman",
+            "status": "Operational",
+            "patners": "ICRC/ UNICEF",
+            "gpslocation": "https://www.google.com/maps/place/Al+Mogran+Water+Station,+Al+Khurtum,+Sudan/@15.6051738,32.5004957,17z/data=!3m1!4b1!4m6!3m5!1s0x168e8e7a8095af2d:0xbfb38ef9b94b0ca8!8m2!3d15.6049371!4d32.5029733!16s%2Fg%2F11bvtbqj_2?entry=ttu",
+            "controlledby": "RSF",
+            "type": "Filteration"
+        },
+        {
+            "name": "Alshgra",
+            "district": "Khartoum",
+            "status": "In & Out",
+            "patners": "ICRC/ UNICEF",
+            "gpslocation": "https://www.google.com/maps/place/%D9%85%D8%AD%D8%B7%D8%A9+%D9%85%D9%8A%D8%A7%D9%87+%D8%A7%D9%84%D8%B4%D8%AC%D8%B1%D8%A9%E2%80%AD/@15.5341884,32.4791104,17z/data=!3m1!4b1!4m6!3m5!1s0x168e8f87b7a852db:0x49357d6b6c3f3ed6!8m2!3d15.5341885!4d32.4839813!16s%2Fg%2F11fqcszmsc?entry=ttu",
+            "controlledby": "SAF",
+            "type": "Distribution",
+            "notes": "Electric issues and fuel for gnerator"
+        },
+        {
+            "name": "Soba",
+            "district": "Khartoum",
+            "status": "Operational",
+            "patners": "ICRC/ UNICEF",
+            "gpslocation": "https://www.google.com/maps/place/%D9%85%D8%AD%D8%B7%D8%A9+%D9%85%D9%8A%D8%A7%D9%87+%D8%B3%D9%88%D8%A8%D8%A7%E2%80%AD/@15.5209756,32.6168666,17z/data=!3m1!4b1!4m6!3m5!1s0x168e9165d61318ad:0x7e1507d8c11bc05b!8m2!3d15.5209756!4d32.6194415!16s%2Fg%2F11jnqsdg1g?entry=ttu",
+            "controlledby": "RSF",
+            "type": "Filteration"
+        },
+        {
+            "name": "Bahari",
+            "district": "Bahari",
+            "status": "Out of Service",
+            "patners": "ICRC/ State Water Cooperation",
+            "gpslocation": "https://www.google.com/maps/place/Bahri+water+plant/@15.6170594,32.5322242,17z/data=!3m1!4b1!4m6!3m5!1s0x168e8df8357986cf:0xd51ca7d786a5ad2d!8m2!3d15.6170594!4d32.5347991!16s%2Fg%2F1hf3yls2n?entry=ttu",
+            "controlledby": "SAF/RSF",
+            "type": "Filteration",
+            "notes": "Has 22 containers of Chlorine Gas "
+        },
+        {
+            "name": "Bait Almal",
+            "district": "Omdurman",
+            "status": "Operational",
+            "patners": "ICRC/ UNICEF",
+            "gpslocation": "https://www.google.com/maps/place/%D9%85%D8%AD%D8%B7%D8%A9+%D9%85%D9%8A%D8%A7%D9%87%E2%80%AD/@15.6461119,32.5032137,17.73z/data=!4m6!3m5!1s0x168e8dc58747ae65:0xdc6550314f4d58b4!8m2!3d15.6458519!4d32.502405!16s%2Fg%2F11t9bqmh98?entry=ttu",
+            "controlledby": "RSF",
+            "type": "Distribution"
+        }
+    ],
+    "Districs": [
+        {
+            "locality": "Khartoum",
+            "adminunits": 15,
+            "cu": 1,
+            "localityErr": 7,
+            "baseErr": 9,
+            "regionadminstrativeUnits": "Arkaweet and AlMamora\\ AlTaif and Riyad\\ AlShajara\\ Jabra\\ Juref West\\ AlSahafa \\Tutti"
+        },
+        {
+            "locality": "Umbada",
+            "adminunits": 18,
+            "cu": 3,
+            "localityErr": 3,
+            "baseErr": 16,
+            "regionadminstrativeUnits": "AlAmir (4) \\ AlBoga (10) \\ AlSalam (2) + 2 hospitals"
+        },
+        {
+            "locality": "Omdurman",
+            "adminunits": 16,
+            "cu": 3,
+            "localityErr": 3,
+            "baseErr": 10,
+            "regionadminstrativeUnits": "Old Omdurman (4) \\ AlArbaen and AlFeel (2) \\ South Omdurman(4) + 2 hospitals"
+        },
+        {
+            "locality": "Bahri",
+            "adminunits": 13,
+            "cu": 1,
+            "localityErr": 4,
+            "baseErr": 8,
+            "regionadminstrativeUnits": "South\\Noth\\ Middle \\Alrif Alshamali : Alshabia/ Alhalfia/ Kafuri/ Napta/ Samarab/ Kabashi/ Danagla North"
+        },
+        {
+            "locality": "East Nile",
+            "adminunits": 17,
+            "cu": 1,
+            "localityErr": 2,
+            "baseErr": 6,
+            "regionadminstrativeUnits": "Al-Osilat/ Um Douban/ Al-Ailafoun/ Soba Sharq/ Al-Marabea/ Sheikh Al-Amin + 2 hospitals"
+        },
+        {
+            "locality": "Karrari",
+            "adminunits": 12,
+            "cu": 1,
+            "localityErr": 1,
+            "baseErr": 10,
+            "regionadminstrativeUnits": "One central coordination office: 10 base rooms + 2 major hospitals + 3 rural hospitals"
+        },
+        {
+            "locality": "Jabal Awlya",
+            "adminunits": 16,
+            "cu": 3,
+            "localityErr": 3,
+            "baseErr": 10,
+            "regionadminstrativeUnits": "Ganoub AlHizam (AlAzhari \\ AlNasr)\\ AlKalakla and Khartoum south (AlJabal) + 2 hospitals"
+        },
+        {
+            "locality": "Khartoum State",
+            "adminunits": 107,
+            "cu": 13,
+            "localityErr": 23,
+            "baseErr": 69
+        }
+    ],
+    "Admin_Units": [
+        {
+            "district": 1,
+            "adminunits": "Khartoum ",
+            "errtype": "Khartoum North",
+            "followsto": "No ERR",
+            "rooms": "Tutti RC",
+            "clinics": 1,
+            "undefined": " "
+        },
+        {
+            "district": 2,
+            "adminunits": "Khartoum ",
+            "errtype": "Khartoum East",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 3,
+            "adminunits": "Khartoum ",
+            "errtype": "Riyad and Taif",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "AlTaif RC",
+            "clinics": 1,
+            "contact": 45
+        },
+        {
+            "district": 4,
+            "adminunits": "Khartoum ",
+            "errtype": "Arkweet",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "Arkweet\\AlMamora RC",
+            "clinics": 2,
+            "geolocation": "https://www.facebook.com/profile.php?id=100069020534330&mibextid=LQQJ4d"
+        },
+        {
+            "district": 5,
+            "adminunits": "Khartoum ",
+            "errtype": "Juref West",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "Juref West RC",
+            "clinics": 1,
+            "communalkitchens": "One basic under equipped clinic ",
+            "comment": "Darmly",
+            "geolocation": "https://facebook.com/jerifcommittee",
+            "undefined": " "
+        },
+        {
+            "district": 6,
+            "adminunits": "Khartoum ",
+            "errtype": "Soba",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 7,
+            "adminunits": "Khartoum ",
+            "errtype": "Local Market",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 8,
+            "adminunits": "Khartoum ",
+            "errtype": "Jabra",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "Jabra RC",
+            "clinics": 1,
+            "comment": "M. Mohamed Adel (0914283846 - 0110931144)",
+            "mediapage": " "
+        },
+        {
+            "district": 9,
+            "adminunits": "Khartoum ",
+            "errtype": "AlSahafa",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "AlSahafa RC",
+            "clinics": 1
+        },
+        {
+            "district": 10,
+            "adminunits": "Khartoum ",
+            "errtype": "AlEmtidad",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "Not activated ",
+            "clinics": 0
+        },
+        {
+            "district": 11,
+            "adminunits": "Khartoum ",
+            "errtype": "AlAmarat",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 12,
+            "adminunits": "Khartoum ",
+            "errtype": "AlDaem",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 13,
+            "adminunits": "Khartoum ",
+            "errtype": "Khartoum west",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "AlLamab\\AlRemila RC",
+            "clinics": 0
+        },
+        {
+            "district": 14,
+            "adminunits": "Khartoum ",
+            "errtype": "Industrial area",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 15,
+            "adminunits": "Khartoum ",
+            "errtype": "AlShajra",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "AlShajra\\Ozozab RC",
+            "clinics": 2,
+            "contact": 36,
+            "comment": "Majdi Salah Aldeen (0906023184)"
+        },
+        {
+            "district": 1,
+            "adminunits": "Ombada",
+            "errtype": "AlAmer North",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 1,
+            "communalkitchens": "Shamal AlAmer ERR",
+            "comment": "Sahar Mukhtar"
+        },
+        {
+            "district": 2,
+            "adminunits": "Ombada",
+            "errtype": "AlAmer South",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "NO",
+            "clinics": 1,
+            "geolocation": "https://www.facebook.com/profile.php?id=100092299731970"
+        },
+        {
+            "district": 3,
+            "adminunits": "Ombada",
+            "errtype": "AlAmer West",
+            "followsto": "Medical\\Services",
+            "rooms": "RC",
+            "clinics": 1,
+            "communalkitchens": "AlHara 40 Dar AlMustafa"
+        },
+        {
+            "district": 4,
+            "adminunits": "Ombada",
+            "errtype": "AlAmer Middle",
+            "followsto": "No ERR",
+            "rooms": "Martyr Ali HubAlDen family",
+            "clinics": 1,
+            "communalkitchens": "Martyr Ali HubAlDen ERR",
+            "comment": "Neimat"
+        },
+        {
+            "district": 5,
+            "adminunits": "Ombada",
+            "errtype": "AlBogaa North",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0,
+            "comment": "Fatima  (0923357946)",
+            "geolocation": "https://www.facebook.com/profile.php?id=100091954002382"
+        },
+        {
+            "district": 6,
+            "adminunits": "Ombada",
+            "errtype": "AlBoga  South",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "RC",
+            "clinics": 3,
+            "communalkitchens": " 43 \\46\\51 Room",
+            "comment": "Tetcha  (0923240408)"
+        },
+        {
+            "district": 7,
+            "adminunits": "Ombada",
+            "errtype": "AlBoga West",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "RC",
+            "clinics": 1,
+            "communalkitchens": "Badr AlKobra",
+            "contact": 98,
+            "comment": "Atif Musa (0113354280)"
+        },
+        {
+            "district": 8,
+            "adminunits": "Ombada",
+            "errtype": "AlBoga East",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": " AlRashideen RC\\ AlSabeel Neigborhood union\\ Actors",
+            "clinics": 3,
+            "communalkitchens": "AlRashedeen ERR\\ AlSabeel ERR",
+            "contact": 144,
+            "comment": "Adel Merghani  (0925943654)",
+            "mediapage": "There's another ERR in AlRashden South",
+            "geolocation": "https:
+        },
+        {
+            "district": 9,
+            "adminunits": "Ombada",
+            "errtype": "AlBoga Middle",
+            "followsto": "Medical\\Services\\ Supply",
+            "rooms": "RC",
+            "clinics": 3,
+            "communalkitchens": "Humantarian aid room\\ AlManara\\ AlSafwa",
+            "comment": "Majdi (0916861422)",
+            "geolocation": "https://www.facebook.com/profile.php?id=100092595836753&mibextid=ZbWKwL"
+        },
+        {
+            "district": 10,
+            "adminunits": "Ombada",
+            "errtype": "Souq AlSalam",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 11,
+            "adminunits": "Ombada",
+            "errtype": "AlSalam East",
+            "followsto": "Medical\\Services\\ Supply",
+            "clinics": 2,
+            "communalkitchens": "AlGamair ERR\\ 24 square room",
+            "comment": "Remaz (0929220140)+Wejdan(0919995469)",
+            "geolocation": "https://www.facebook.com/profile.php?id=100092939113625"
+        },
+        {
+            "district": 12,
+            "adminunits": "Ombada",
+            "errtype": "AlSalam Middle",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 13,
+            "adminunits": "Ombada",
+            "errtype": "AlSalam North",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 14,
+            "adminunits": "Ombada",
+            "errtype": "AlSalam South",
+            "followsto": "No ERR",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 15,
+            "adminunits": "Ombada",
+            "errtype": "AlSalam East",
+            "followsto": "Medical\\Services",
+            "clinics": 2
+        },
+        {
+            "district": 16,
+            "adminunits": "Ombada",
+            "errtype": "Souq AboZaid",
+            "rooms": "NO"
+        },
+        {
+            "district": 17,
+            "adminunits": "Ombada",
+            "errtype": "Souq Libya",
+            "rooms": "NO",
+            "mediapage": "Trade union"
+        },
+        {
+            "district": 18,
+            "adminunits": "Ombada",
+            "errtype": "AlSalam AlJadeeda",
+            "mediapage": "Trade union"
+        },
+        {
+            "district": 1,
+            "adminunits": "Omdurman",
+            "errtype": "Wad Nubawi",
+            "clinics": 1,
+            "communalkitchens": "Wad Nubawi ERR",
+            "comment": "Abroof (0915027160)"
+        },
+        {
+            "district": 2,
+            "adminunits": "Omdurman",
+            "errtype": "Hai AlArab",
+            "rooms": "NO",
+            "clinics": 0,
+            "undefined": "15.656768, 32.477313, 15.656748, 32.478536, 15.648256, 32.481562, 15.648111, 32.483858,15.639722, 32.486175, 15.641953, 32.477291, 15.641891, 32.477270, 15.647801, 32.477313, 15.653462, 32.475274"
+        },
+        {
+            "district": 3,
+            "adminunits": "Omdurman",
+            "errtype": "Abu Anja",
+            "clinics": 0
+        },
+        {
+            "district": 4,
+            "adminunits": "Omdurman",
+            "errtype": "AlMawrada",
+            "followsto": "Medical\\Services",
+            "rooms": "AlArbaen , AlFeel, AlMawrda and AlArda coordination ",
+            "clinics": 2,
+            "communalkitchens": "Bant East ERR",
+            "geolocation": "https://www.facebook.com/profile.php?id=100069557647468"
+        },
+        {
+            "district": 5,
+            "adminunits": "Omdurman",
+            "errtype": "AlMohandiseen",
+            "followsto": "Medical",
+            "rooms": "Not Active ",
+            "clinics": 1
+        },
+        {
+            "district": 6,
+            "adminunits": "Omdurman",
+            "errtype": "AlFetihab",
+            "followsto": "Medical\\Services",
+            "rooms": "South Omdurman Resistance Committees",
+            "clinics": 1
+        },
+        {
+            "district": 7,
+            "adminunits": "Omdurman",
+            "errtype": "AbuSaad South",
+            "rooms": "South Omdurman Resistance Committees"
+        },
+        {
+            "district": 8,
+            "adminunits": "Omdurman",
+            "errtype": "AbuSaad North",
+            "rooms": "South Omdurman Resistance Committees"
+        },
+        {
+            "district": 9,
+            "adminunits": "Omdurman",
+            "errtype": "Salha",
+            "rooms": "Salha Resistance Committees",
+            "clinics": 1
+        },
+        {
+            "district": 10,
+            "adminunits": "Omdurman",
+            "errtype": "AlWehda"
+        },
+        {
+            "district": 11,
+            "adminunits": "Omdurman",
+            "errtype": "AlSalam"
+        },
+        {
+            "district": 12,
+            "adminunits": "Omdurman",
+            "errtype": "Bashaier"
+        },
+        {
+            "district": 13,
+            "adminunits": "Omdurman",
+            "errtype": "Souq Omdurman",
+            "rooms": "NO",
+            "mediapage": "وحدة تجارية"
+        },
+        {
+            "district": 14,
+            "adminunits": "Omdurman",
+            "errtype": "AlSouq AlShabi",
+            "rooms": "NO",
+            "mediapage": "وحدة تجارية"
+        },
+        {
+            "district": 15,
+            "adminunits": "Omdurman",
+            "errtype": "AlSouq AlMarkazi",
+            "rooms": "NO",
+            "mediapage": "وحدة تجارية"
+        },
+        {
+            "district": 16,
+            "adminunits": "Omdurman",
+            "errtype": "AlSinaat ",
+            "rooms": "NO",
+            "mediapage": "وحدة تجارية"
+        },
+        {
+            "district": 1,
+            "adminunits": "Bahri",
+            "errtype": "Bahri AlMadina",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "contact": 98,
+            "mediapage": "غرفة الطوارئ المشتركة /بحري "
+        },
+        {
+            "district": 2,
+            "adminunits": "Bahri",
+            "errtype": "Bahri Middle",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 3,
+            "adminunits": "Bahri",
+            "errtype": "Shambat and AlSafia",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 4,
+            "adminunits": "Bahri",
+            "errtype": "Halfaiat AlMulook",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 5,
+            "adminunits": "Bahri",
+            "errtype": "AlDroshab",
+            "rooms": "Bahri Neighborhoods Committees "
+        },
+        {
+            "district": 6,
+            "adminunits": "Bahri",
+            "errtype": "Dardiug and Nabta",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 7,
+            "adminunits": "Bahri",
+            "errtype": "AlSamrab UmDeriwa",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 8,
+            "adminunits": "Bahri",
+            "errtype": "AlKadro and UmAlQura",
+            "rooms": "Bahri Neighborhoods Committees "
+        },
+        {
+            "district": 9,
+            "adminunits": "Bahri",
+            "errtype": "Kobar\\Kafouri\\AlEzba\\AlWaha",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 10,
+            "adminunits": "Bahri",
+            "errtype": "AlSelait North",
+            "rooms": "Bahri Neighborhoods Committees "
+        },
+        {
+            "district": 11,
+            "adminunits": "Bahri",
+            "errtype": "AlSelait South",
+            "rooms": "Bahri Neighborhoods Committees "
+        },
+        {
+            "district": 12,
+            "adminunits": "Bahri",
+            "errtype": "AlJaili",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 13,
+            "adminunits": "Bahri",
+            "errtype": "Garri",
+            "rooms": "Bahri Neighborhoods Committees ",
+            "clinics": 1
+        },
+        {
+            "district": 1,
+            "adminunits": "East Nile",
+            "errtype": "AlHaj Yousif Middle",
+            "clinics": 1,
+            "mediapage": "Alban Jaded Hospital emergency room"
+        },
+        {
+            "district": 2,
+            "adminunits": "East Nile",
+            "errtype": "AlSalam"
+        },
+        {
+            "district": 3,
+            "adminunits": "East Nile",
+            "errtype": "AlGarbia"
+        },
+        {
+            "district": 4,
+            "adminunits": "East Nile",
+            "errtype": "AlFaiha"
+        },
+        {
+            "district": 5,
+            "adminunits": "East Nile",
+            "errtype": "AlWadi AlAkhdar"
+        },
+        {
+            "district": 6,
+            "adminunits": "East Nile",
+            "errtype": "Wadi Soba",
+            "clinics": 1,
+            "mediapage": "Sheikh Al-Amin emergency room"
+        },
+        {
+            "district": 7,
+            "adminunits": "East Nile",
+            "errtype": "AlJerifat and UmDom"
+        },
+        {
+            "district": 8,
+            "adminunits": "East Nile",
+            "errtype": "Hillat Koko"
+        },
+        {
+            "district": 9,
+            "adminunits": "East Nile",
+            "errtype": "Soba East",
+            "clinics": 2,
+            "mediapage": "Marabe El Sharif / Suba East emergency room"
+        },
+        {
+            "district": 10,
+            "adminunits": "East Nile",
+            "errtype": "AlEailfon",
+            "clinics": 1,
+            "mediapage": "AlEailfon emergency room"
+        },
+        {
+            "district": 11,
+            "adminunits": "East Nile",
+            "errtype": "UmDawanabn",
+            "clinics": 1,
+            "mediapage": "Umm Dawaban Hospital emergency room"
+        },
+        {
+            "district": 12,
+            "adminunits": "East Nile",
+            "errtype": "Wad AboSalih"
+        },
+        {
+            "district": 13,
+            "adminunits": "East Nile",
+            "errtype": "AboDelaig"
+        },
+        {
+            "district": 14,
+            "adminunits": "East Nile",
+            "errtype": "Salama WadNile"
+        },
+        {
+            "district": 15,
+            "adminunits": "East Nile",
+            "errtype": "AlEsailat"
+        },
+        {
+            "district": 16,
+            "adminunits": "East Nile",
+            "errtype": "EidBabeker",
+            "clinics": 1
+        },
+        {
+            "district": 17,
+            "adminunits": "East Nile",
+            "errtype": "AlSouq",
+            "rooms": "NO",
+            "clinics": 0
+        },
+        {
+            "district": 1,
+            "adminunits": "Karrari",
+            "errtype": "AlThawra East"
+        },
+        {
+            "district": 2,
+            "adminunits": "Karrari",
+            "errtype": "AlThawra West"
+        },
+        {
+            "district": 3,
+            "adminunits": "Karrari",
+            "errtype": "Karrari East"
+        },
+        {
+            "district": 4,
+            "adminunits": "Karrari",
+            "errtype": "Karrari Middle"
+        },
+        {
+            "district": 5,
+            "adminunits": "Karrari",
+            "errtype": "Karrari North"
+        },
+        {
+            "district": 6,
+            "adminunits": "Karrari",
+            "errtype": "Karrari West",
+            "followsto": " "
+        },
+        {
+            "district": 7,
+            "adminunits": "Karrari",
+            "errtype": "AlFath West"
+        },
+        {
+            "district": 8,
+            "adminunits": "Karrari",
+            "errtype": "AlFath East"
+        },
+        {
+            "district": 9,
+            "adminunits": "Karrari",
+            "errtype": "AlRief AlShamali South"
+        },
+        {
+            "district": 10,
+            "adminunits": "Karrari",
+            "errtype": "AlRief AlShamali North"
+        },
+        {
+            "district": 11,
+            "adminunits": "Karrari",
+            "errtype": "Souq Sabreen",
+            "rooms": "NO"
+        },
+        {
+            "district": 12,
+            "adminunits": "Karrari",
+            "errtype": "AlMantiga AlSinaia"
+        },
+        {
+            "district": 1,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlAzhari North",
+            "rooms": "AlAzhari"
+        },
+        {
+            "district": 2,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlAzhari South",
+            "rooms": "AlAzhari"
+        },
+        {
+            "district": 3,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlAzhari East",
+            "rooms": "AlAzhari"
+        },
+        {
+            "district": 4,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlAzhari West",
+            "rooms": "AlAzhari"
+        },
+        {
+            "district": 5,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlNasr North"
+        },
+        {
+            "district": 6,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlNasr South"
+        },
+        {
+            "district": 7,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlNasr East"
+        },
+        {
+            "district": 8,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlNasr West"
+        },
+        {
+            "district": 9,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlKalkla North",
+            "rooms": "AlKalkla"
+        },
+        {
+            "district": 10,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlKalkla South",
+            "rooms": "AlKalkla"
+        },
+        {
+            "district": 11,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlKalkla East",
+            "rooms": "AlKalkla"
+        },
+        {
+            "district": 12,
+            "adminunits": "Jabal Awlya",
+            "errtype": "AlKalkla West",
+            "rooms": "AlKalkla"
+        },
+        {
+            "district": 13,
+            "adminunits": "Jabal Awlya",
+            "errtype": "JabalAwlya North"
+        },
+        {
+            "district": 14,
+            "adminunits": "Jabal Awlya",
+            "errtype": "JabalAwlya Sourh"
+        },
+        {
+            "district": 15,
+            "adminunits": "Jabal Awlya",
+            "errtype": "JabalAwlya East"
+        },
+        {
+            "district": 16,
+            "adminunits": "Jabal Awlya",
+            "errtype": "JanalAwlya West"
+        },
+        {
+            "clinics": 48,
+            "contact": 421
+        }
+    ]
+}
