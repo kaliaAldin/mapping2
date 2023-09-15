@@ -15,7 +15,7 @@ request.onreadystatechange = function() {
 // Define hospital icons
 var hosIcon1 = L.icon({
   iconUrl: "/images/hospital.png",
-  shadowUrl: 'marker-shadow.png',
+  shadowUrl: '/images/marker-shadow.png',
   iconSize: [30, 30],
   shadowSize: [30, 30],
   iconAnchor: [12, 55],
@@ -25,7 +25,7 @@ var hosIcon1 = L.icon({
 
 var hosIcon2 = L.icon({
   iconUrl: "/images/hospital2.png",
-  shadowUrl: 'marker-shadow.png',
+  shadowUrl: '/images/marker-shadow.png',
   iconSize: [30, 30],
   shadowSize: [30, 30],
   iconAnchor: [12, 55],
