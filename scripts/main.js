@@ -76,16 +76,17 @@ hosButton.onclick = function() {
 
         // Create an option element for each hospital
         var option = document.createElement("option");
-        option.value = hosNameGbs[i].name;
+        //option.value = hosNameGbs[i].name;
         option.id = "hos" + i;
         option.textContent = hosNameGbs[i].name;
         option.classList.add("hosClasses");
+        hospitalDropdown.appendChild(option);
 
         if (status !== "Operational") {
           option.style.backgroundColor = "red"; // Set background color to red for non-operational hospitals
         }
 
-        hospitalDropdown.appendChild(option);
+        
       } else {
         console.error("Invalid Gbs values at index " + i + ": " + Gbs);
       }
@@ -126,10 +127,16 @@ hosButton.onclick = function() {
 
   // room Button onclick event
 var roomButton = document.getElementById("ER");
+var roomDiv = document.getElementById("RoomList");
+var RoomsDisplayed = false; // Track whether Rooms are currently displayed
+var RoomDropdown = null;
+
 roomButton.onclick = function() {
-  console.log("rooms Button clicked");
-  hospitalsDisplayed = true;
-  var hospitalDropdown = null;
+  if (!RoomsDisplayed){
+RoomDropdown = document.createElement("select"); // create a drop down room menu
+RoomDropdown.id="roomDropdown" ;// id for the newly inserted drop menu
+roomDiv.appendChild(RoomDropdown);
+  
   
   for (var i = 0; i < RoomsNameType.length; i++) {
     var GbsArray = RoomsNameType[i].Gbs;
@@ -144,6 +151,12 @@ roomButton.onclick = function() {
     
     // Check if GbsArray contains valid coordinates
     if (GbsArray.length >= 6 && GbsArray.length % 2 === 0 && GbsArray.every(function(num) { return !isNaN(num); })) {
+      var roomOption = document.createElement("option");
+        //option.value = hosNameGbs[i].name;
+        roomOption.id = "room" + i;
+        roomOption.textContent = RoomsNameType[i].RoomName;
+        roomOption.classList.add("RoomClasses");
+        RoomDropdown.appendChild(roomOption);
       // Create an array to hold the LatLng objects
       var latLngs = [];
       
@@ -165,13 +178,14 @@ roomButton.onclick = function() {
       console.error("Invalid GeoLocation data for room: " + RoomsNameType[i].RoomName);
     }
   }
+  RoomsDisplayed = true;
 }
 
 
      
     }
     
-    
+  } 
   }
 
 
