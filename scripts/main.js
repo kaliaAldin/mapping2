@@ -34,13 +34,14 @@ var hosIcon2 = L.icon({
 });
 
 // Hospitals button onclick event
+// ...
+
+// Hospitals button onclick event
 var hosButton = document.getElementById("hos");
 
-var HosDiv = document.getElementById("HosList")
+var HosDiv = document.getElementById("HosList");
 var hospitalsDisplayed = false; // Track whether hospitals are currently displayed
 var hospitalDropdown = null; // Track the dropdown list
-
-// ...
 
 // ...
 
@@ -79,6 +80,11 @@ hosButton.onclick = function() {
         option.id = "hos" + i;
         option.textContent = hosNameGbs[i].name;
         option.classList.add("hosClasses");
+
+        if (status !== "Operational") {
+          option.style.backgroundColor = "red"; // Set background color to red for non-operational hospitals
+        }
+
         hospitalDropdown.appendChild(option);
       } else {
         console.error("Invalid Gbs values at index " + i + ": " + Gbs);
@@ -113,6 +119,9 @@ hosButton.onclick = function() {
     hospitalsDisplayed = false;
   }
 };
+
+// ...
+
  
 
   // room Button onclick event
