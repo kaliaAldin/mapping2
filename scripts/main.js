@@ -33,12 +33,118 @@ var hosIcon2 = L.icon({
   popupAnchor: [-3, -76]
 });
 
+var defaultZoomLevel = 13; 
+
 // Hospitals button onclick event
 // ...
+// Rooms button onclick event
+var roomButton = document.getElementById("ER");
+var roomDiv = document.getElementById("RoomList");
+var RoomsDisplayed = false; // Track whether Rooms are currently displayed
+var RoomDropdown = null;
+
+roomButton.onclick = function() {
+  if (!RoomsDisplayed) {
+    // Remove hospitals dropdown if it's currently displayed
+    if (hospitalDropdown) {
+      HosDiv.removeChild(hospitalDropdown);
+      hospitalDropdown = null;
+      hospitalsDisplayed = false;
+      var ZoomIn = 15
+    }
+
+    // Remove hospitals from the map if displayed
+    map.eachLayer(function(layer) {
+      if (layer instanceof L.Marker) {
+        map.removeLayer(layer);
+      }
+    });
+
+    RoomDropdown = document.createElement("select"); // create a dropdown room menu
+    RoomDropdown.id = "roomDropdown"; // id for the newly inserted dropdown menu
+    roomDiv.appendChild(RoomDropdown);
+
+    for (var i = 0; i < RoomsNameType.length; i++) {
+      var GbsArray = RoomsNameType[i].Gbs;
+      var workingRooms = RoomsNameType[i].RoomNumbers;
+
+      if (workingRooms > 0) {
+        roomColor = "blue";
+      } else {
+        roomColor = "red";
+        document.getElementById("roomDropdown").style.backgroundColor = "rgba(255, 0, 0, 0.8)"; // Set background to red for non-working rooms
+      }
+
+      // Check if GbsArray contains valid coordinates
+      if (GbsArray.length >= 6 && GbsArray.length % 2 === 0 && GbsArray.every(function(num) { return !isNaN(num); })) {
+        var roomOption = document.createElement("option");
+
+        roomOption.id = "room" + i;
+        roomOption.textContent = RoomsNameType[i].RoomName;
+        roomOption.classList.add("RoomClasses");
+        RoomDropdown.appendChild(roomOption);
+
+        // Create an array to hold the LatLng objects
+        var latLngs = [];
+
+        // Iterate over GbsArray to group coordinates into pairs and create LatLng objects
+        for (var j = 0; j < GbsArray.length; j += 2) {
+          var lat = GbsArray[j];
+          var lng = GbsArray[j + 1];
+          latLngs.push([lat, lng]);
+        }
+
+
+        // Roo20m Dropdown event listener for changing the map view
+        RoomDropdown.addEventListener('change', function() {
+          var selectedIndex = RoomDropdown.selectedIndex;
+          if (selectedIndex !== -1) {
+            defaultZoomLevel= 15;
+             
+            var selectedRoomGbs = RoomsNameType[selectedIndex].Gbs;
+            if (!isNaN(selectedRoomGbs[0]) && !isNaN(selectedRoomGbs[1])) {
+              map.setView([selectedRoomGbs[0], selectedRoomGbs[1]], defaultZoomLevel);
+            }
+          }
+        });
+
+        // Create a polygon with the LatLng objects
+        var responseRooms = L.polygon(latLngs, {
+          color: roomColor,
+          fillColor: roomColor,
+          fillOpacity: 0.3,
+          weight: 1
+        }).bindPopup(RoomsNameType[i].RoomName).addTo(map);
+      } else {
+        console.error("Invalid GeoLocation data for room: " + RoomsNameType[i].RoomName);
+      }
+    }
+
+    RoomsDisplayed = true;
+    
+  } else {
+    // Remove rooms from the map
+    map.eachLayer(function(layer) {
+      if (layer instanceof L.Polygon) {
+        map.removeLayer(layer);
+      }
+    });
+
+    // Remove the dropdown menu
+    if (RoomDropdown) {
+      roomDiv.removeChild(RoomDropdown);
+      
+      RoomDropdown = null; // Reset the dropdown variable
+    }
+
+    RoomsDisplayed = false;
+    defaultZoomLevel = 13;
+    map.setView([15.609705, 32.530528], defaultZoomLevel); // Set map view to default coordinates and zoom level
+  }
+};
 
 // Hospitals button onclick event
 var hosButton = document.getElementById("hos");
-
 var HosDiv = document.getElementById("HosList");
 var hospitalsDisplayed = false; // Track whether hospitals are currently displayed
 var hospitalDropdown = null; // Track the dropdown list
@@ -47,6 +153,20 @@ var hospitalDropdown = null; // Track the dropdown list
 
 hosButton.onclick = function() {
   if (!hospitalsDisplayed) {
+    // Remove rooms dropdown if it's currently displayed
+    if (RoomDropdown) {
+      roomDiv.removeChild(RoomDropdown);
+      RoomDropdown = null;
+      RoomsDisplayed = false;
+    }
+
+    // Remove rooms from the map if displayed
+    map.eachLayer(function(layer) {
+      if (layer instanceof L.Polygon) {
+        map.removeLayer(layer);
+      }
+    });
+
     // Display hospitals as a dropdown list
     hospitalDropdown = document.createElement("select");
     hospitalDropdown.id = "hospitalDropdown";
@@ -85,21 +205,20 @@ hosButton.onclick = function() {
         if (status !== "Operational") {
           option.style.backgroundColor = "red"; // Set background color to red for non-operational hospitals
         }
-
-        
       } else {
         console.error("Invalid Gbs values at index " + i + ": " + Gbs);
       }
     }
     hospitalsDisplayed = true;
-    
+
     // Add event listener for select change
     hospitalDropdown.addEventListener('change', function() {
       var selectedIndex = hospitalDropdown.selectedIndex;
       if (selectedIndex !== -1) {
+        defaultZoomLevel = 15;
         var selectedGbs = hosNameGbs[selectedIndex].Gbs;
         if (!isNaN(selectedGbs[0]) && !isNaN(selectedGbs[1])) {
-          map.setView([selectedGbs[0], selectedGbs[1]], 13);
+          map.setView([selectedGbs[0], selectedGbs[1]], defaultZoomLevel);
         }
       }
     });
@@ -118,72 +237,11 @@ hosButton.onclick = function() {
     }
 
     hospitalsDisplayed = false;
+    defaultZoomLevel = 13; 
+    map.setView([15.609705, 32.530528], defaultZoomLevel);
   }
 };
 
-// ...
-
- 
-
-  // room Button onclick event
-var roomButton = document.getElementById("ER");
-var roomDiv = document.getElementById("RoomList");
-var RoomsDisplayed = false; // Track whether Rooms are currently displayed
-var RoomDropdown = null;
-
-roomButton.onclick = function() {
-  if (!RoomsDisplayed){
-RoomDropdown = document.createElement("select"); // create a drop down room menu
-RoomDropdown.id="roomDropdown" ;// id for the newly inserted drop menu
-roomDiv.appendChild(RoomDropdown);
-  
-  
-  for (var i = 0; i < RoomsNameType.length; i++) {
-    var GbsArray = RoomsNameType[i].Gbs;
-    var workingRooms = RoomsNameType[i].RoomNumbers;
-
-    if (workingRooms > 0){
-      roomColor = "blue"
-    }
-    else {
-      roomColor = "red"
-    }
-    
-    // Check if GbsArray contains valid coordinates
-    if (GbsArray.length >= 6 && GbsArray.length % 2 === 0 && GbsArray.every(function(num) { return !isNaN(num); })) {
-      var roomOption = document.createElement("option");
-        //option.value = hosNameGbs[i].name;
-        roomOption.id = "room" + i;
-        roomOption.textContent = RoomsNameType[i].RoomName;
-        roomOption.classList.add("RoomClasses");
-        RoomDropdown.appendChild(roomOption);
-      // Create an array to hold the LatLng objects
-      var latLngs = [];
-      
-      // Iterate over GbsArray to group coordinates into pairs and create LatLng objects
-      for (var j = 0; j < GbsArray.length; j += 2) {
-        var lat = GbsArray[j];
-        var lng = GbsArray[j + 1];
-        latLngs.push([lat, lng]);
-      }
-      
-      // Create a polygon with the LatLng objects
-      var responseRooms = L.polygon(latLngs, {
-        color: roomColor,
-        fillColor: roomColor,
-        fillOpacity: 0.3,
-        weight: 1
-      }).bindPopup(RoomsNameType[i].RoomName).addTo(map);
-    } else {
-      console.error("Invalid GeoLocation data for room: " + RoomsNameType[i].RoomName);
-    }
-  }
-  RoomsDisplayed = true;
-}
-
-
-     
-    }
     
   } 
   }
