@@ -61,7 +61,7 @@ roomButton.onclick = function() {
 
     RoomDropdown = document.createElement("select"); // create a dropdown room menu
     RoomDropdown.id = "roomDropdown"; // id for the newly inserted dropdown menu
-    roomDiv.appendChild(RoomDropdown);
+    roomDiv.appendChild(RoomDropdown); // adding the drobdwon menu to the room div
 
     for (var i = 0; i < RoomsNameType.length; i++) {
       var GbsArray = RoomsNameType[i].Gbs;
