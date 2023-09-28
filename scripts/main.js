@@ -35,7 +35,6 @@ var hosIcon2 = L.icon({
 
 var defaultZoomLevel = 13; 
 
-// Hospitals button onclick event
 // ...
 // Rooms button onclick event
 var roomButton = document.getElementById("ER");
