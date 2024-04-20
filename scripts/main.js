@@ -315,7 +315,7 @@ function myFunction() {
   }
 }
 
-const apiKey = 'pk.eyJ1IjoiYWhtZWQtaXNhbSIsImEiOiJjbGhtOXc2a3MwdjZkM2xvZDkwa3dzYW9mIn0.7BHKfPZNhk_qYJ7bg57BPQ';
+const apiKey = '';
 
 var map = L.map('map').setView([15.609705, 32.530528], 13);
 
